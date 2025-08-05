@@ -1,1 +1,0 @@
-for<'a> fn(&'a rocket::State<rocket::futures::lock::Mutex<std::vec::Vec<models::user::User>>>) -> rocket::serde::json::Json<std::vec::Vec<models::user::User>> {routes::users::list}
